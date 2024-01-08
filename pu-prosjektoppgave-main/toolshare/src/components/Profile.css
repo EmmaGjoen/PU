@@ -1,0 +1,53 @@
+.profile-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-section-heading {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-listings {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .profile-listing-card {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex: 1 1 300px;
+  }
+  
+  .profile-agreements {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .profile-agreements li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-agreements li p {
+    margin: 0;
+  }
+  
+  .profile-agreements li button {
+    margin-top: 10px;
+  }
